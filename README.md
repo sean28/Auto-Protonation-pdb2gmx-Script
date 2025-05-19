@@ -1,4 +1,4 @@
-# ⚙️ sean28-Auto-Protonation-pdb2gmx-Script
+# ⚙️ Auto-Protonation-pdb2gmx-Script
 <div style="text-align: justify"> The pdb2gmx command of GROMACS when using GROMACS for molecular dynamics simulation, the first command to be used is generally pdb2gmx. This command converts PDB molecular files into GROMACS' unique gro molecular structure file type, and generates molecular topology files at the same time. However, in the process of generating topology files, a protonation process is required, which can define the protonation options of each residue. This step is too cumbersome, so we made this script to auto run protonation for pdb2gmx to prevent dazzle. </div>
 <div style="text-align: justify"> <br> </div>
 <div style="text-align: justify"> The expect module of Perl is mainly used to practice this function, an example is as follows: </div>
